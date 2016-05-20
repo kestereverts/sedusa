@@ -1,0 +1,28 @@
+{
+	"server": "irc.example.com",
+	"nick": "Sedusa",
+	"prefix": "!e ",
+	"config": {
+	    "userName": "Sedusa",
+	    "realName": "Sedusa by IJ",
+	    "port": 6667,
+	    "localAddress": null,
+	    "debug": false,
+	    "showErrors": false,
+	    "autoRejoin": true,
+	    "autoConnect": true,
+	    "channels": ["#sedusa"],
+	    "secure": false,
+	    "selfSigned": false,
+	    "certExpired": false,
+	    "floodProtection": false,
+	    "floodProtectionDelay": 1000,
+	    "sasl": false,
+	    "retryCount": 0,
+	    "retryDelay": 2000,
+	    "stripColors": false,
+	    "channelPrefixes": "&#",
+	    "messageSplit": 512,
+	    "encoding": ""
+	}
+}

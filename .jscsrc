@@ -1,0 +1,72 @@
+
+{
+  "disallowKeywordsOnNewLine": [ "else" ],
+  "disallowMixedSpacesAndTabs": "smart",
+  "disallowMultipleLineStrings": true,
+  "disallowMultipleVarDecl": true,
+  "disallowNewlineBeforeBlockStatements": true,
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowSpaceBeforePostfixUnaryOperators": true,
+  "disallowSpacesInCallExpression": true,
+  "disallowTrailingComma": true,
+  "disallowTrailingWhitespace": "ignoreEmptyLines",
+  "disallowSpaceAfterKeywords": [
+    "if",
+    "for",
+    "while",
+    "switch",
+    "catch"
+  ],
+  "disallowSpacesInsideBrackets": true,
+  "disallowSpacesInsideParentheses": true,
+  "disallowSpaceBeforeSemicolon": true,
+  "disallowVar": true,
+  "disallowSpacesInsideParenthesizedExpression": true,
+  "disallowSpacesInsideObjectBrackets": true,
+  "disallowMultipleSpaces": {"allowEOLComments": true},
+  "disallowSpaceBeforeComma": {"allExcept": ["sparseArrays"]},
+  "disallowSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInFunction": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInGenerator": {
+    "beforeStar": true
+  },
+
+  "requireCommaBeforeLineBreak": true,
+  "requireOperatorBeforeLineBreak": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "requireSpaceAfterLineComment": true,
+  "requireSpaceBeforeBinaryOperators": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpaceBeforeKeywords": [ "else", "catch" ],
+  "requireSpaceBeforeObjectValues": true,
+  "requireSpaceBetweenArguments": true,
+  "requireLineFeedAtFileEnd": true,
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInGenerator": {
+    "afterStar": true
+  },
+  "requireSpaceAfterKeywords": ["return", "typeof", "case"],
+  "requireSpacesInConditionalExpression": true,
+  "requireSpacesInForStatement": true,
+  "requireDotNotation": true,
+  "requireSemicolons": true,
+
+  "maximumLineLength": 135,
+  "validateIndentation": 4,
+  "validateLineBreaks": "LF",
+  "validateParameterSeparator": ", ",
+  "validateQuoteMarks": "\"",
+}
