@@ -35,10 +35,6 @@ let sandbox = Object.create(Object.prototype, {
 
 vm.createContext(sandbox);
 
-client.on("join#mojo", (nick, message) => {
-    client.say("#mojo", "Hello people!");
-});
-
 client.on("message", (nick, to, message, raw) => {
     const prefix = String(config.prefix);
     if(!message.startsWith(prefix)) return;
